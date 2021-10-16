@@ -1,6 +1,6 @@
 {
   "name": "glapi-promise",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A library to work with gitlab project api.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.4",
+    "axios": "^0.23.0",
     "sleep-promise": "^8.0.1"
   },
   "devDependencies": {
