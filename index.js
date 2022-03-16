@@ -1,4 +1,4 @@
 module.exports = {
-  GitlabApi: require('./lib/gitlab-api.js')
+  ...require('./lib/gitlab-api.js')
 };
 

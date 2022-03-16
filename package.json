@@ -1,6 +1,6 @@
 {
   "name": "glapi-promise",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A library to work with gitlab project api.",
   "main": "index.js",
   "scripts": {
