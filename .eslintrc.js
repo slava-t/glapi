@@ -13,8 +13,9 @@ module.exports = {
     'wrapInRouter': 'readonly',
     'wrapInProvider': 'readonly',
   },
-  'parser': 'babel-eslint',
   'parserOptions': {
+    'parser': '@babel/eslint-parser',
+    'requireConfigFile': false,
     'ecmaFeatures': {
       'experimentalObjectRestSpread': true,
       'jsx': true
