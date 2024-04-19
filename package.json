@@ -1,12 +1,12 @@
 {
   "name": "glapi-promise",
-  "version": "0.0.23",
+  "version": "0.0.30",
   "description": "A library to work with gitlab project api.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./",
     "test": "NODE_PRESERVE_SYMLINKS=1 mocha \"tests/**/test-*.js\"",
-    "release": "npm test && npm publish"
+    "release": "npm run lint && npm test && npm publish"
   },
   "repository": {
     "type": "git",
